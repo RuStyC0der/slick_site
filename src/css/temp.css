@@ -1,0 +1,348 @@
+
+.Artboard_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1282px;
+    height: 1350px;
+    z-index: 62;
+  }
+  .footer {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1648px;
+    height: 1440px;
+    z-index: 61;
+  }
+  .Connect_with_us_support_elinguage_com {
+    font-size: 16px;
+    font-family: "Catamaran";
+    color: rgb(255, 255, 255);
+    line-height: 2.25;
+    text-align: center;
+    position: absolute;
+    left: 952.759px;
+    top: 1298.546px;
+    width: 191px;
+    height: 52px;
+    z-index: 60;
+  }
+  .Rectangle_2_copy {
+    background-color: rgb(51, 51, 51);
+    position: absolute;
+    left: -2px;
+    top: 1229px;
+    width: 1284px;
+    height: 121px;
+    z-index: 56;
+  }
+  .Head {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1648px;
+    height: 1440px;
+    z-index: 53;
+  }
+  .registration {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 1648px;
+    height: 1440px;
+    z-index: 52;
+  }
+  .Code {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgba(51, 51, 51, 0.702);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 771.844px;
+    top: 461.872px;
+    width: 43px;
+    height: 14px;
+    z-index: 51;
+  }
+  .Password {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgba(51, 51, 51, 0.702);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 770.844px;
+    top: 360.872px;
+    width: 82px;
+    height: 14px;
+    z-index: 50;
+  }
+  .E_mail {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgba(51, 51, 51, 0.702);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 770.844px;
+    top: 305.89px;
+    width: 54px;
+    height: 14px;
+    z-index: 49;
+  }
+  .Name {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgba(51, 51, 51, 0.702);
+    line-height: 2;
+    text-align: left;
+    position: absolute;
+    left: 770.844px;
+    top: 250.908px;
+    width: 50px;
+    height: 14px;
+    z-index: 48;
+  }
+  .Sign_in {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    line-height: 2;
+    text-align: center;
+    position: absolute;
+    left: 936.019px;
+    top: 178.89px;
+    width: 59px;
+    height: 17px;
+    z-index: 47;
+  }
+  .If_you_re_the_celebrity__enter_the_code_to_crea {
+    font-size: 16px;
+    font-family: "Catamaran";
+    color: rgb(255, 255, 255);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 760.937px;
+    top: 391.546px;
+    width: 317px;
+    height: 40px;
+    z-index: 46;
+  }
+  .Join_us {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgb(255, 255, 255);
+    line-height: 2;
+    text-align: center;
+    position: absolute;
+    left: 749.578px;
+    top: 178.89px;
+    width: 60px;
+    height: 15px;
+    z-index: 45;
+  }
+  .Register_now {
+    font-size: 30px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 751.203px;
+    top: 508.823px;
+    width: 217px;
+    height: 31px;
+    z-index: 44;
+  }
+  .registerNow {
+    background-color: rgb(255, 102, 0);
+    position: absolute;
+    left: 763px;
+    top: 472px;
+    width: 347px;
+    height: 40px;
+    z-index: 43;
+  }
+  .Rectangle_white {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 762px;
+    top: 417px;
+    width: 347px;
+    height: 40px;
+    z-index: 42;
+  }
+  .Rectangle_3_copy_2 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 762px;
+    top: 315px;
+    width: 347px;
+    height: 40px;
+    z-index: 41;
+  }
+  .Rectangle_3_copy {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 762px;
+    top: 260px;
+    width: 347px;
+    height: 40px;
+    z-index: 40;
+  }
+  .Rectangle_3 {
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    left: 762px;
+    top: 205px;
+    width: 347px;
+    height: 40px;
+    z-index: 39;
+  }
+  .greyRestangle {
+    background-color: rgb(255, 255, 255);
+    opacity: 0.702;
+    position: absolute;
+    left: 936px;
+    top: 124px;
+    width: 190px;
+    height: 58px;
+    z-index: 38;
+  }
+  .allRegisterForm {
+    background-color: rgb(51, 51, 51);
+    opacity: 0.902;
+    box-shadow: 0px 6px 5.64px 0.36px rgba(44, 43, 45, 0.7);
+    position: absolute;
+    left: 749px;
+    top: 124px;
+    width: 377px;
+    height: 422px;
+    z-index: 37;
+  }
+  .Talk_to_people__artificial_language {
+    font-size: 36px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    text-align: center;
+    position: absolute;
+    left: 43.342px;
+    top: 380.805px;
+    width: 331px;
+    height: 88px;
+    z-index: 17;
+  }
+  .Rectangle_1_copy {
+    background-image: -moz-linear-gradient( 90deg, rgb(0,241,255) 0%, rgb(0,168,178) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(0,241,255) 0%, rgb(0,168,178) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(0,241,255) 0%, rgb(0,168,178) 100%);
+    position: absolute;
+    left: 0px;
+    top: -5px;
+    width: 1282px;
+    height: 669px;
+    z-index: 15;
+  }
+  .Web_platform_for_communication_using_different_ {
+    font-size: 16px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    line-height: 1.5;
+    text-align: left;
+    position: absolute;
+    left: 246.937px;
+    top: 806.546px;
+    width: 764px;
+    height: 40px;
+    z-index: 13;
+  }
+  ._How_it_works___ {
+    font-size: 30px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 237.294px;
+    top: 875.828px;
+    width: 232px;
+    height: 24px;
+    z-index: 12;
+  }
+  ._What_is_Elinguage___ {
+    font-size: 30px;
+    font-family: "Catamaran";
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    left: 231.364px;
+    top: 732.828px;
+    width: 316px;
+    height: 31px;
+    z-index: 11;
+  }
+  .Create_Create_your_own_language_ {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgb(0, 168, 178);
+    line-height: 2;
+    text-align: center;
+    position: absolute;
+    left: 971.841px;
+    top: 1075.768px;
+    width: 210px;
+    height: 41px;
+    z-index: 8;
+  }
+  .Share_Share_the_five_letter_conversation_code_w {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgb(0, 168, 178);
+    line-height: 2;
+    text-align: center;
+    position: absolute;
+    left: 653.202px;
+    top: 1075.872px;
+    width: 250px;
+    height: 113px;
+    z-index: 7;
+  }
+  .Translate_Write_word_or_expression__choose_the_ {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgb(0, 168, 178);
+    line-height: 2;
+    text-align: center;
+    position: absolute;
+    left: 366.855px;
+    top: 1075.872px;
+    width: 201px;
+    height: 86px;
+    z-index: 6;
+  }
+  .Start_Register_or_sign_in {
+    font-size: 18px;
+    font-family: "Catamaran";
+    color: rgb(0, 168, 178);
+    line-height: 2;
+    text-align: center;
+    position: absolute;
+    left: 99.982px;
+    top: 1075.768px;
+    width: 142px;
+    height: 53px;
+    z-index: 5;
+  }
+  .Layer_1 {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 0px;
+    height: 0px;
+    z-index: 2;
+  }

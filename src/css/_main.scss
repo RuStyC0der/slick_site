@@ -1,0 +1,282 @@
+body, html{
+    width: 100vw;
+    height: 100vh;
+}
+
+.draggable{
+    height: 100vh !important;
+}
+
+.slide_1 {
+    width: 100vw;
+    height: 100vh !important;
+    background-image: linear-gradient(90deg, #00fafe27 0%, #00fafe23 100%), url(../img/neonbrand-570373-unsplash.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .slide__intro {
+        .intro__logo {
+            margin: 0 auto;
+            background: url(../img/logo.svg) no-repeat;
+            width: 200px;
+            height: 100px;
+        }
+
+        .intro__text {
+            font-size: 30px;
+            font-family: "Catamaran";
+            color: rgb(51, 51, 51);
+            line-height: 1.5;
+            text-align: center;
+            width: 331px;
+            height: 88px;
+        }
+    }
+
+    .slide__form {
+        width: 380px;
+        height: 430px;
+        background: $footer-color;
+    }
+}
+
+
+
+
+.form__header{
+    height: 58px;
+    display: flex;
+}
+.form{
+    width: 380px;
+    height: 421px;
+    text-align: center;
+}
+.form-joinus{
+    background-color: #333434;
+    color: #ffffff;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+
+
+}
+.form-signin{
+    background-color: #c6c7c7;
+    color:#333333 ;
+    display: inline-block;
+    width: 50%;
+    height: 100%;
+}
+.form__input {
+width: 350px;
+text-align: left;
+}
+.form__section{
+    
+    position: relative;
+    height: 365px;
+
+   
+}
+.form__registration{
+    margin: 0 auto;
+    position: absolute;
+    display: none;;
+    background-color: #333434;
+    width: 100%;
+    padding-left: 15px;
+
+}
+.form__register{
+    width: 100%;
+    background-color: #c6c7c7;
+    margin: 0 auto;
+    position: absolute;
+    z-index:0;
+    display: none;;
+   
+}
+.form__section input{
+    width:350px;
+    margin: 7.5px 0;
+    height: 42px;
+    border: none;
+   
+    
+}
+
+.slide_2 {
+    width: 100vw;
+    height: 100vh !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+
+    .slide__bad_name_block {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .bad_name_block__title {
+            margin-top: 80px;
+            margin-bottom: 20px;
+            font-size: 30px;
+            font-family: "Catamaran";
+            color: rgb(0, 168, 178);
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        .bad_name_block__description {
+            margin-bottom: 60px;
+            font-size: 16px;
+            font-family: "Catamaran";
+            color: rgb(51, 51, 51);
+            line-height: 1.5;
+            text-align: left;
+        }
+    }
+
+    .slide__menu {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .menu__title {
+            margin-bottom: 30px;
+            font-size: 30px;
+            font-family: "Catamaran";
+            color: rgb(0, 168, 178);
+            line-height: 1.2;
+            text-align: center;
+        }
+
+        .menu__items {
+            width: 100%;
+
+            display: flex;
+            justify-content: space-around;
+
+            .items__item {
+
+                max-width: 250px;
+
+                .item__title {
+                    font-size: 18px;
+                    font-family: "Catamaran";
+                    color: rgb(0, 168, 178);
+                    line-height: 2;
+                    text-align: center;
+                }
+
+                .item__description {
+                    margin-bottom: 60px;
+                    font-size: 16px;
+                    font-family: "Catamaran";
+                    color: rgb(51, 51, 51);
+                    line-height: 1.5;
+                    text-align: center;
+                }
+
+                .item__img {
+                    height: 100px;
+                    margin-bottom: 10px;
+                    background-repeat: no-repeat;
+                    background-position: center;
+
+
+                }
+
+                &#item_1 {
+                    .item__img {
+
+                        background-image: url("../img/idea.svg");
+
+                    }
+                }
+                &#item_2 {
+                    .item__img {
+
+                        background-image: url("../img/group2.svg");
+
+                    }
+                }&#item_3 {
+                    .item__img {
+
+                        background-image: url("../img/translation.svg");
+
+                    }
+                }&#item_4 {
+                    .item__img {
+
+                        background-image: url("../img/plus.svg");
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+.slide_3{
+
+    .slide__footer{
+        width: 100vw;
+        height: 100vh !important;
+        background-color: $footer-color;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .footer__logo{
+            // margin: 0 auto;
+            
+            height: 100%;
+            width: 300px;
+            background-repeat: no-repeat;
+            background-image: url("../img/white_logo.png");
+            background-position: center;
+        }
+
+
+
+        .footer__suport{
+            margin: 60px;
+
+            .container{
+                display: flex;
+                align-items: center;
+            }
+
+            .suport__line{
+                width: 40px;
+                height: 4px;
+                background-color: whitesmoke;
+            }
+
+            .suport__text{
+                margin: 10px;
+                font-size: 16px;
+                font-family: "Catamaran";
+                color: rgb(255, 255, 255);
+                line-height: 2.25;
+                text-align: center;
+                
+            }
+
+            .suport__mail{
+                font-size: 16px;
+                font-family: "Catamaran";
+                color: rgb(255, 255, 255);
+                line-height: 2.25;
+                text-align: center;
+            }
+        }
+    } 
+
+}

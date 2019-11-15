@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- <link rel="stylesheet" href="./css/style.css"> -->
+  <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+  <link rel="stylesheet" type="text/css" href="./css/style.css" />
+  <link rel="stylesheet" type="text/css" href="slick/slick-theme.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="slider">
+
+    <div class="slide_1">
+      <div class="slide__intro">
+        <div class="intro__logo"></div>
+        <div class="intro__text">Talk to people artificial language</div>
+      </div>
+      <div class="form">
+        <div class="form__header">
+          <div class="form-joinus">Join us</div>
+          <div class="form-signin">Sign in</div>
+        </div>
+        <div class="form__section">
+          <div class="form__registration form__input">
+            <form action="Actio">
+              <input type="text" value="Name">
+              <input type="email" value="E-mail">
+              <input type="password" value="Password">
+              <p>If you’re the celebrity, enter the code to create a language</p>
+              <input type="number" value="Code">
+              <input type="button" value="Register now">
+            </form>
+          </div>
+          <div class="form__register form__input">
+            <form action="Actio">
+              <input type="text" value="Name">
+              <input type="email" value="E-mail">
+              <input type="password" value="Password">
+              <p>If you’re the celebrity, enter the code to create a language</p>
+              <input type="number" value="Code">
+              <input type="button" value="Sign in">
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide_2">
+      <div class="slide__bad_name_block">
+        <div class="bad_name_block__title"> What is Elinguage? </div>
+        <div class="bad_name_block__description">Web platform for communication using different artificial language
+          Lorem
+          ipsum dolor sit amet. Lorem ipsum dolor sit.
+        </div>
+      </div>
+      <div class="slide__menu">
+        <div class="menu__title"> How it works?</div>
+        <div class="menu__items">
+          <div id="item_1" class="items__item">
+            <div class="item__img"></div>
+            <div class="item__title">Create</div>
+            <div class="item__description"> Create your own language!</div>
+          </div>
+          <div id="item_2" class="items__item">
+            <div class="item__img"></div>
+            <div class="item__title">Share</div>
+            <div class="item__description">Share the five-letter conversation code with other member</div>
+          </div>
+          <div id="item_3" class="items__item">
+            <div class="item__img"></div>
+            <div class="item__title">Translate</div>
+            <div class="item__description">Translate Write word or expression, choose the language and tr</div>
+          </div>
+          <div id="item_4" class="items__item">
+            <div class="item__img"></div>
+            <div class="item__title">Start</div>
+            <div class="item__description">Register or sign in</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="slide_3">
+      <div class="slide__footer">
+        <div class="footer__logo"></div>
+        <div class="footer__suport">
+          <div class="container">
+            <div class="suport__line"></div>
+            <div class="suport__text">Connect with us</div>
+            <div class="suport__line"></div>
+          </div>
+          <div class="suport__mail">support@elinguage.com</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script defer type="text/javascript" src="slick/slick.min.js"></script>
+
+  <!-- <script type="text/javascript">
+    $(document).ready(function(){
+      $('.slider').slick({
+        vertical: true,
+        verticalSwiping: true,
+        arrows: false,
+        slidesToShow: 1,
+    slidesToScroll: 1,
+    adaptiveHeight: false,
+    infinite: false
+      });
+    });
+  </script> -->
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.slider').slick({
+        vertical: true,
+        arrows: false,
+        verticalSwiping: true,
+        slidesToShow: 1,
+    slidesToScroll: 1,
+      });
+    });
+  </script>
+
+  <script defer>
+    document.getElementsByClassName("form-joinus")[0].addEventListener('click', function () {
+      document.getElementsByClassName('form__registration form__input')[0].style.display = "block";
+      document.getElementsByClassName('form__register form__input')[0].style.display = "none";
+    });
+    document.getElementsByClassName("form-signin")[0].addEventListener('click', function () {
+      document.getElementsByClassName('form__registration form__input')[0].style.display = "none";
+      document.getElementsByClassName('form__register form__input')[0].style.display = "block";
+    });
+  </script>
+
+</body>
+
+</html>
