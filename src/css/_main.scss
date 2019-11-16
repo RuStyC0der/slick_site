@@ -1,9 +1,10 @@
-body, html{
+body,
+html {
     width: 100vw;
     height: 100vh;
 }
 
-.draggable{
+.draggable {
     height: 100vh !important;
 }
 
@@ -13,7 +14,8 @@ body, html{
     background-image: linear-gradient(90deg, #00fafe27 0%, #00fafe23 100%), url(../img/neonbrand-570373-unsplash.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    display: flex;
+    display: flex !important;
+
     justify-content: space-evenly;
     align-items: center;
 
@@ -34,80 +36,91 @@ body, html{
             width: 331px;
             height: 88px;
         }
+
+
     }
 
     .slide__form {
         width: 380px;
-        height: 430px;
-        background: $footer-color;
+        height: 421px;
+        text-align: center;
+    
+        .form__header {
+            height: 58px;
+            display: flex;
+        
+            .form-joinus {
+                background-color: #333434;
+                color: #ffffff;
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+        
+        
+            }
+        
+            .form-signin {
+                background-color: #c6c7c7;
+                color: #333333;
+                display: inline-block;
+                width: 50%;
+                height: 100%;
+            }
+        
+        }
+    
+        .form__section {
+            position: relative;
+            height: 365px;
+        
+            .form__input {
+                width: 100%;
+                height: 100%;
+                flex-direction: column;
+                justify-content: center;
+                .registration__text {
+                    padding: 0 20px;
+                }
+            }
+        
+            .form__registration {
+                margin: 0 auto;
+                position: absolute;
+                display: flex;
+                background-color: #333434;
+                width: 100%;
+            }
+            
+            .form__login {
+                width: 100%;
+                background-color: #c6c7c7;
+                margin: 0 auto;
+                position: absolute;
+                z-index: 0;
+                display: none;
+            
+            }
+            
+            input {
+                width: 300px;
+                height: 42px;
+                border: none;
+                margin: 7.5px auto;
+        
+            }
+        
+        }    
+    
     }
 }
 
 
 
 
-.form__header{
-    height: 58px;
-    display: flex;
-}
-.form{
-    width: 380px;
-    height: 421px;
-    text-align: center;
-}
-.form-joinus{
-    background-color: #333434;
-    color: #ffffff;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
 
 
-}
-.form-signin{
-    background-color: #c6c7c7;
-    color:#333333 ;
-    display: inline-block;
-    width: 50%;
-    height: 100%;
-}
-.form__input {
-width: 350px;
-text-align: left;
-}
-.form__section{
-    
-    position: relative;
-    height: 365px;
 
-   
-}
-.form__registration{
-    margin: 0 auto;
-    position: absolute;
-    display: none;;
-    background-color: #333434;
-    width: 100%;
-    padding-left: 15px;
 
-}
-.form__register{
-    width: 100%;
-    background-color: #c6c7c7;
-    margin: 0 auto;
-    position: absolute;
-    z-index:0;
-    display: none;;
-   
-}
-.form__section input{
-    width:350px;
-    margin: 7.5px 0;
-    height: 42px;
-    border: none;
-   
-    
-}
 
 .slide_2 {
     width: 100vw;
@@ -189,43 +202,31 @@ text-align: left;
                     background-repeat: no-repeat;
                     background-position: center;
 
-
                 }
 
-                &#item_1 {
-                    .item__img {
-
-                        background-image: url("../img/idea.svg");
-
-                    }
+                &#item_1 .item__img {
+                    background-image: url("../img/idea.svg");
                 }
-                &#item_2 {
-                    .item__img {
 
-                        background-image: url("../img/group2.svg");
+                &#item_2 .item__img {
+                    background-image: url("../img/group2.svg");
+                }
 
-                    }
-                }&#item_3 {
-                    .item__img {
+                &#item_3 .item__img {
+                    background-image: url("../img/translation.svg");
+                }
 
-                        background-image: url("../img/translation.svg");
-
-                    }
-                }&#item_4 {
-                    .item__img {
-
-                        background-image: url("../img/plus.svg");
-
-                    }
+                &#item_4 .item__img {
+                    background-image: url("../img/plus.svg");
                 }
             }
         }
     }
 }
 
-.slide_3{
+.slide_3 {
 
-    .slide__footer{
+    .slide__footer {
         width: 100vw;
         height: 100vh !important;
         background-color: $footer-color;
@@ -233,9 +234,7 @@ text-align: left;
         justify-content: space-between;
         align-items: center;
 
-        .footer__logo{
-            // margin: 0 auto;
-            
+        .footer__logo {
             height: 100%;
             width: 300px;
             background-repeat: no-repeat;
@@ -245,31 +244,31 @@ text-align: left;
 
 
 
-        .footer__suport{
+        .footer__suport {
             margin: 60px;
 
-            .container{
+            .container {
                 display: flex;
                 align-items: center;
             }
 
-            .suport__line{
+            .suport__line {
                 width: 40px;
                 height: 4px;
                 background-color: whitesmoke;
             }
 
-            .suport__text{
+            .suport__text {
                 margin: 10px;
                 font-size: 16px;
                 font-family: "Catamaran";
                 color: rgb(255, 255, 255);
                 line-height: 2.25;
                 text-align: center;
-                
+
             }
 
-            .suport__mail{
+            .suport__mail {
                 font-size: 16px;
                 font-family: "Catamaran";
                 color: rgb(255, 255, 255);
@@ -277,6 +276,6 @@ text-align: left;
                 text-align: center;
             }
         }
-    } 
+    }
 
 }
