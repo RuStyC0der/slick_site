@@ -1,0 +1,39 @@
+@media (max-width: 700px) {
+
+
+    .slide_1 {
+        background-size: cover;
+        flex-direction: column;
+    }
+
+
+    .slide_2 {
+
+        .bad_name_block__description {
+            margin-bottom: 1px;
+            font-size: 13px;
+            text-align: center;
+        }
+
+        .slide__menu {
+
+            .menu__items {
+                flex-wrap: wrap;
+            }
+
+            .items__item{
+                max-width: 100px;
+                .item__description{
+                    font-size: 13px;
+                }
+            }
+        }
+    }
+
+
+    .slide_3 .slide__footer {
+        flex-direction: column;
+    }
+
+    
+}
