@@ -133,6 +133,7 @@ html {
                 display: inline-block;
                 width: 50%;
                 height: 100%;
+                padding-top: 5%;
 
 
 
@@ -143,6 +144,7 @@ html {
                 color: #333333;
                 display: inline-block;
                 width: 50%;
+                padding-top: 5%;
                 height: 100%;
 
             }
@@ -222,7 +224,7 @@ html {
 .slide_2 {
     width: 100vw;
     height: 100vh !important;
-    display: flex;
+    display: flex !important;
     flex-direction: column;
     justify-content: space-evenly;
 

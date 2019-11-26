@@ -9,11 +9,7 @@ $(document).ready(function () {
     });
 });
 
-// $(document).ready(function () {
-//     $('.menu__items').slick({
-//         slidesToShow: 1,
-//     });
-// });
+
 
 
 
