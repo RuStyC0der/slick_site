@@ -9,6 +9,14 @@ $(document).ready(function () {
     });
 });
 
+// $(document).ready(function () {
+//     $('.menu__items').slick({
+//         slidesToShow: 1,
+//     });
+// });
+
+
+
 document.getElementsByClassName("form-joinus")[0].addEventListener('click', function () {
     document.getElementsByClassName('form__registration')[0].style.display = "flex";
     document.getElementsByClassName('form__login')[0].style.display = "none";
@@ -31,7 +39,6 @@ document.getElementsByClassName("login__button")[0].addEventListener('click', fu
 
 document.getElementsByClassName('ass')[0].addEventListener('click', function () {
      if (this.checked){
-        
         document.getElementsByClassName('form__registration')[0].style.display = "none";
         document.getElementsByClassName('form__login')[0].style.display = "flex";
      }else{
